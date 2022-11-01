@@ -15,7 +15,6 @@ document.querySelector("#play").addEventListener("click", function() {
 	video.play();
 	video.volume = slider.value/100;
 	console.log("Volume is set to " + slider.value  + "%");
-	console.log("Volume is set to " + video.volume);
 
 });
 
